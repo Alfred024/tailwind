@@ -6,7 +6,69 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body>
-    <h1 class="bg-red-700">Ola mundo</h1>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-teal-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-bold">Sitio con Tailwind CSS</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-300"></a></li>
+                <li><a href="#" class="hover:text-gray-300"></a></li>
+                <li><a href="#" class="hover:text-gray-300"></a></li>
+                <li><a href="#" class="hover:text-gray-300"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl mb-4">ARTÍCULOS</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Article 2 -->
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Article 3 -->
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Article 4 -->
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/3862630/pexels-photo-3862630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/726233/pexels-photo-726233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="bg-white shadow-md p-4">
+                <img src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Article Image" class="w-full mb-4">
+                <h2 class="text-lg font-bold">Article Title</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-teal-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>Hecho con TailwindCSS.</p>
+        </div>
+    </footer>
 </body>
 </html>
